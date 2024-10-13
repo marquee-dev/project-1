@@ -48,7 +48,8 @@ const HomePage = () => {
     try {
       await axios.post(
         'http://localhost:4000/api/addcart',
-        { productId: product._id, quantity: 1 },
+
+        { productId: product._id, quantity: 1, size:"M"},
         {
           headers: {
             Authorization: `Bearer ${token}`,
