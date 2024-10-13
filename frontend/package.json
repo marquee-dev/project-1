@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@fullpage/react-fullpage": "^0.1.44",
     "@mui/icons-material": "^6.1.1",
     "@mui/material": "^6.1.1",
     "@testing-library/jest-dom": "^5.17.0",
@@ -12,10 +13,16 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
     "formik": "^2.4.6",
+    "fullpage.js": "^4.0.29",
+    "lucide-react": "^0.446.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.14",
     "web-vitals": "^2.1.4",
     "yup": "^1.4.0"
   },
@@ -42,5 +49,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }

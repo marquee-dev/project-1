@@ -8,9 +8,16 @@ import ProductDetailPage from './components/ProductDetailPage';
 import { AuthProvider } from './components/AuthContext';
 import CartPage from './components/CartPage';
 import CheckoutPage from './components/CheckoutPage';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{
+      display: 'flex',
+      flexDirection: 'column',
+      minHeight: '100vh'
+    }}>
       <BrowserRouter>
         <AuthProvider> {/* Wrap with AuthProvider */}
           <Routes>
